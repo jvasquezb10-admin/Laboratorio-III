@@ -6,7 +6,7 @@ public class Perro extends Animal {
 
     @Override
     public void sonido(){
-        System.out.println("\nGau guau guau");
+        System.out.println(getNombre() + " dice guauu guauu. ");
     }
 
     public static void main(String[] args) {
